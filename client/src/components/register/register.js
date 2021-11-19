@@ -40,6 +40,7 @@ const FormRegister = () => {
         onSubmit={(values, formikHelpers) => {
           Axios.post("http://localhost:3001/api/insert", values).then(function(response) {
             console.log(response)
+            alert('Cadastro realizado com Sucesso!')
           });
           console.log(values);
           formikHelpers.resetForm();
