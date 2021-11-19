@@ -1,0 +1,21 @@
+.form-calc{
+  position: relative;
+  left: 83vh;
+  padding: 10px 10px;
+  max-width: 300px;
+  padding-top: 10.5px;
+  flex-wrap: wrap;
+  margin-top: 125px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  vertical-align: top;
+  flex-direction: row;
+  cursor: pointer;
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow: 6px 5px gray;
+  }
+
